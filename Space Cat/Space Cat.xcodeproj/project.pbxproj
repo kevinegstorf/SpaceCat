@@ -24,6 +24,7 @@
 		076934D91992113B00DFFF53 /* Space_CatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 076934D81992113B00DFFF53 /* Space_CatTests.m */; };
 		078D11FF19925ECB0079776F /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D11FE19925ECB0079776F /* TitleScene.m */; };
 		078D1202199267650079776F /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D1201199267650079776F /* GamePlayScene.m */; };
+		078D1204199270230079776F /* Sprites.Atlas in Resources */ = {isa = PBXBuildFile; fileRef = 078D1203199270230079776F /* Sprites.Atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		078D11FE19925ECB0079776F /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleScene.m; path = ../TitleScene.m; sourceTree = "<group>"; };
 		078D1200199267650079776F /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
 		078D1201199267650079776F /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
+		078D1203199270230079776F /* Sprites.Atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.Atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				078D1200199267650079776F /* GamePlayScene.h */,
 				078D1201199267650079776F /* GamePlayScene.m */,
 				076934C51992113B00DFFF53 /* Images.xcassets */,
+				078D1203199270230079776F /* Sprites.Atlas */,
 				076934AF1992113B00DFFF53 /* Supporting Files */,
 			);
 			path = "Space Cat";
@@ -244,6 +247,7 @@
 			files = (
 				076934B31992113B00DFFF53 /* InfoPlist.strings in Resources */,
 				076934C61992113B00DFFF53 /* Images.xcassets in Resources */,
+				078D1204199270230079776F /* Sprites.Atlas in Resources */,
 				076934BC1992113B00DFFF53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
