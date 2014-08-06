@@ -32,5 +32,11 @@
 }
 
 
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    SpaceCatNode *spaceCat = (SpaceCatNode*)[self childNodeWithName:@"SpaceCat"];
+    [spaceCat performTap];
+}
+
+
 
 @end
