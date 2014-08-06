@@ -16,14 +16,13 @@
 		076934B91992113B00DFFF53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 076934B81992113B00DFFF53 /* AppDelegate.m */; };
 		076934BC1992113B00DFFF53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076934BA1992113B00DFFF53 /* Main.storyboard */; };
 		076934BF1992113B00DFFF53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076934BE1992113B00DFFF53 /* ViewController.m */; };
-		076934C21992113B00DFFF53 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 076934C11992113B00DFFF53 /* MyScene.m */; };
-		076934C41992113B00DFFF53 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 076934C31992113B00DFFF53 /* Spaceship.png */; };
 		076934C61992113B00DFFF53 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076934C51992113B00DFFF53 /* Images.xcassets */; };
 		076934CD1992113B00DFFF53 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076934CC1992113B00DFFF53 /* XCTest.framework */; };
 		076934CE1992113B00DFFF53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076934A61992113B00DFFF53 /* Foundation.framework */; };
 		076934CF1992113B00DFFF53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076934AA1992113B00DFFF53 /* UIKit.framework */; };
 		076934D71992113B00DFFF53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 076934D51992113B00DFFF53 /* InfoPlist.strings */; };
 		076934D91992113B00DFFF53 /* Space_CatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 076934D81992113B00DFFF53 /* Space_CatTests.m */; };
+		078D11FF19925ECB0079776F /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D11FE19925ECB0079776F /* TitleScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,15 +50,14 @@
 		076934BB1992113B00DFFF53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		076934BD1992113B00DFFF53 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		076934BE1992113B00DFFF53 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		076934C01992113B00DFFF53 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		076934C11992113B00DFFF53 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		076934C31992113B00DFFF53 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		076934C51992113B00DFFF53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		076934CB1992113B00DFFF53 /* Space CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space CatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		076934CC1992113B00DFFF53 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		076934D41992113B00DFFF53 /* Space CatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space CatTests-Info.plist"; sourceTree = "<group>"; };
 		076934D61992113B00DFFF53 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		076934D81992113B00DFFF53 /* Space_CatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_CatTests.m; sourceTree = "<group>"; };
+		078D11FD19925ECB0079776F /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleScene.h; path = ../TitleScene.h; sourceTree = "<group>"; };
+		078D11FE19925ECB0079776F /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleScene.m; path = ../TitleScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +124,8 @@
 				076934BA1992113B00DFFF53 /* Main.storyboard */,
 				076934BD1992113B00DFFF53 /* ViewController.h */,
 				076934BE1992113B00DFFF53 /* ViewController.m */,
-				076934C01992113B00DFFF53 /* MyScene.h */,
-				076934C11992113B00DFFF53 /* MyScene.m */,
-				076934C31992113B00DFFF53 /* Spaceship.png */,
+				078D11FD19925ECB0079776F /* TitleScene.h */,
+				078D11FE19925ECB0079776F /* TitleScene.m */,
 				076934C51992113B00DFFF53 /* Images.xcassets */,
 				076934AF1992113B00DFFF53 /* Supporting Files */,
 			);
@@ -242,7 +239,6 @@
 			files = (
 				076934B31992113B00DFFF53 /* InfoPlist.strings in Resources */,
 				076934C61992113B00DFFF53 /* Images.xcassets in Resources */,
-				076934C41992113B00DFFF53 /* Spaceship.png in Resources */,
 				076934BC1992113B00DFFF53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				076934C21992113B00DFFF53 /* MyScene.m in Sources */,
+				078D11FF19925ECB0079776F /* TitleScene.m in Sources */,
 				076934BF1992113B00DFFF53 /* ViewController.m in Sources */,
 				076934B91992113B00DFFF53 /* AppDelegate.m in Sources */,
 				076934B51992113B00DFFF53 /* main.m in Sources */,
@@ -472,6 +468,7 @@
 				076934DE1992113B00DFFF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		076934DF1992113B00DFFF53 /* Build configuration list for PBXNativeTarget "Space CatTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +477,7 @@
 				076934E11992113B00DFFF53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
