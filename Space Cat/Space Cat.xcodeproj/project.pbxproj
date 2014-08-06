@@ -25,6 +25,8 @@
 		078D11FF19925ECB0079776F /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D11FE19925ECB0079776F /* TitleScene.m */; };
 		078D1202199267650079776F /* GamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D1201199267650079776F /* GamePlayScene.m */; };
 		078D1204199270230079776F /* Sprites.Atlas in Resources */ = {isa = PBXBuildFile; fileRef = 078D1203199270230079776F /* Sprites.Atlas */; };
+		078D125D199284050079776F /* MachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D125C199284050079776F /* MachineNode.m */; };
+		078D126019928F120079776F /* SpaceCatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D125F19928F120079776F /* SpaceCatNode.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		078D1200199267650079776F /* GamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayScene.h; sourceTree = "<group>"; };
 		078D1201199267650079776F /* GamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayScene.m; sourceTree = "<group>"; };
 		078D1203199270230079776F /* Sprites.Atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.Atlas; sourceTree = "<group>"; };
+		078D125B199284050079776F /* MachineNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachineNode.h; sourceTree = "<group>"; };
+		078D125C199284050079776F /* MachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineNode.m; sourceTree = "<group>"; };
+		078D125E19928F120079776F /* SpaceCatNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceCatNode.h; sourceTree = "<group>"; };
+		078D125F19928F120079776F /* SpaceCatNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceCatNode.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,10 @@
 				078D11FE19925ECB0079776F /* TitleScene.m */,
 				078D1200199267650079776F /* GamePlayScene.h */,
 				078D1201199267650079776F /* GamePlayScene.m */,
+				078D125E19928F120079776F /* SpaceCatNode.h */,
+				078D125F19928F120079776F /* SpaceCatNode.m */,
+				078D125B199284050079776F /* MachineNode.h */,
+				078D125C199284050079776F /* MachineNode.m */,
 				076934C51992113B00DFFF53 /* Images.xcassets */,
 				078D1203199270230079776F /* Sprites.Atlas */,
 				076934AF1992113B00DFFF53 /* Supporting Files */,
@@ -272,6 +282,8 @@
 				078D1202199267650079776F /* GamePlayScene.m in Sources */,
 				076934B91992113B00DFFF53 /* AppDelegate.m in Sources */,
 				076934B51992113B00DFFF53 /* main.m in Sources */,
+				078D126019928F120079776F /* SpaceCatNode.m in Sources */,
+				078D125D199284050079776F /* MachineNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

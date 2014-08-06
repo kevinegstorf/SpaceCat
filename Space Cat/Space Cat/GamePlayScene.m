@@ -6,10 +6,12 @@
 //  Copyright (c) 2014 devcodechef. All rights reserved.
 //
 
+
 #import "GamePlayScene.h"
+#import "MachineNode.h"
+#import "SpaceCatNode.h"
 
 @implementation GamePlayScene
-
 
 -(id)initWithSize:(CGSize)size {
     if (self = [super initWithSize:size]) {
@@ -18,18 +20,17 @@
         background.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame));
         [self addChild:background];
         
-        
-        SKSpriteNode *machine = [SKSpriteNode spriteNodeWithImageNamed:@"machine_1"];
-        machine.position = CGPointMake(CGRectGetMidX(self.frame), 12);
-        machine.anchorPoint = CGPointMake(0.5, 0);
+        MachineNode *machine = [MachineNode machineAtPosition:CGPointMake(CGRectGetMidX(self.frame), 12)];
         [self addChild:machine];
         
+        SpaceCatNode *spaceCat = [SpaceCatNode spaceCatAtPosition:CGPointMake(machine.position.x, machine.position.y-2)];
+        [self addChild:spaceCat];
+        
+    
     }
     return self;
 }
 
--(void) update:(NSTimeInterval)currentTime {
-    NSLog(@"%f", fmod(currentTime, 60));
-}
+
 
 @end
