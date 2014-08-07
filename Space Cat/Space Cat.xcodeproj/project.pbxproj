@@ -28,6 +28,7 @@
 		078D1204199270230079776F /* Sprites.Atlas in Resources */ = {isa = PBXBuildFile; fileRef = 078D1203199270230079776F /* Sprites.Atlas */; };
 		078D125D199284050079776F /* MachineNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D125C199284050079776F /* MachineNode.m */; };
 		078D126019928F120079776F /* SpaceCatNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 078D125F19928F120079776F /* SpaceCatNode.m */; };
+		0794C2091994189F002A07CA /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0794C2081994189F002A07CA /* Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,8 @@
 		078D125C199284050079776F /* MachineNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachineNode.m; sourceTree = "<group>"; };
 		078D125E19928F120079776F /* SpaceCatNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceCatNode.h; sourceTree = "<group>"; };
 		078D125F19928F120079776F /* SpaceCatNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceCatNode.m; sourceTree = "<group>"; };
+		0794C2071994189F002A07CA /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		0794C2081994189F002A07CA /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				076934AE1992113B00DFFF53 /* Space Cat */,
-				076934D21992113B00DFFF53 /* Space CatTests */,
 				076934A51992113B00DFFF53 /* Frameworks */,
 				076934A41992113B00DFFF53 /* Products */,
 			);
@@ -143,6 +145,9 @@
 				078D125F19928F120079776F /* SpaceCatNode.m */,
 				078D125B199284050079776F /* MachineNode.h */,
 				078D125C199284050079776F /* MachineNode.m */,
+				0794C2071994189F002A07CA /* Util.h */,
+				0794C2081994189F002A07CA /* Util.m */,
+				076934D21992113B00DFFF53 /* Space CatTests */,
 				076934C51992113B00DFFF53 /* Images.xcassets */,
 				078D1203199270230079776F /* Sprites.Atlas */,
 				076934AF1992113B00DFFF53 /* Supporting Files */,
@@ -173,7 +178,7 @@
 				076934D31992113B00DFFF53 /* Supporting Files */,
 			);
 			path = "Space CatTests";
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		076934D31992113B00DFFF53 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -290,6 +295,7 @@
 				076934B51992113B00DFFF53 /* main.m in Sources */,
 				078D126019928F120079776F /* SpaceCatNode.m in Sources */,
 				078D125D199284050079776F /* MachineNode.m in Sources */,
+				0794C2091994189F002A07CA /* Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

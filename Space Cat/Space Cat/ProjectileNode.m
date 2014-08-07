@@ -7,6 +7,7 @@
 //
 
 #import "ProjectileNode.h"
+#import "Util.h"
 
 @implementation ProjectileNode
 + (instancetype) projectileAtPosition:(CGPoint)position {
@@ -62,7 +63,7 @@
     // distance = speed * time
     // time = distance /speed
     
-    float time = distanceC / 100;
+    float time = distanceC / ProjectileSpeed;
     
     SKAction *moveProjectile = [SKAction moveTo:pointOffscreen duration:time];
     [self runAction:moveProjectile];
