@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07213DC119936F8600AC1D9F /* ProjectileNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 07213DC019936F8600AC1D9F /* ProjectileNode.m */; };
 		076934A71992113B00DFFF53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076934A61992113B00DFFF53 /* Foundation.framework */; };
 		076934A91992113B00DFFF53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076934A81992113B00DFFF53 /* CoreGraphics.framework */; };
 		076934AB1992113B00DFFF53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076934AA1992113B00DFFF53 /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07213DBF19936F8600AC1D9F /* ProjectileNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectileNode.h; sourceTree = "<group>"; };
+		07213DC019936F8600AC1D9F /* ProjectileNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectileNode.m; sourceTree = "<group>"; };
 		076934A31992113B00DFFF53 /* Space Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Cat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		076934A61992113B00DFFF53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		076934A81992113B00DFFF53 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -134,6 +137,8 @@
 				078D11FE19925ECB0079776F /* TitleScene.m */,
 				078D1200199267650079776F /* GamePlayScene.h */,
 				078D1201199267650079776F /* GamePlayScene.m */,
+				07213DBF19936F8600AC1D9F /* ProjectileNode.h */,
+				07213DC019936F8600AC1D9F /* ProjectileNode.m */,
 				078D125E19928F120079776F /* SpaceCatNode.h */,
 				078D125F19928F120079776F /* SpaceCatNode.m */,
 				078D125B199284050079776F /* MachineNode.h */,
@@ -279,6 +284,7 @@
 			files = (
 				078D11FF19925ECB0079776F /* TitleScene.m in Sources */,
 				076934BF1992113B00DFFF53 /* ViewController.m in Sources */,
+				07213DC119936F8600AC1D9F /* ProjectileNode.m in Sources */,
 				078D1202199267650079776F /* GamePlayScene.m in Sources */,
 				076934B91992113B00DFFF53 /* AppDelegate.m in Sources */,
 				076934B51992113B00DFFF53 /* main.m in Sources */,
