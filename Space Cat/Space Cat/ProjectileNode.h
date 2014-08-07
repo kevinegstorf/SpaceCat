@@ -11,7 +11,7 @@
 @interface ProjectileNode : SKSpriteNode
 
 + (instancetype) projectileAtPosition:(CGPoint)position;
-
+- (void) moveTowardsPoistion:(CGPoint)position;
 
 
 @end
